@@ -67,10 +67,25 @@ To get the optimal result reported in the paper, change the hyperparameters and 
 ## Citation
 If you find the resource in this repository helpful, please cite
 ```
-@article{li2022complex,
-  title={Complex Evolutional Pattern Learning for Temporal Knowledge Graph Reasoning},
-  author={Li, Zixuan and Guan, Saiping and Jin, Xiaolong and Peng, Weihua and Lyu, Yajuan and Zhu, Yong and Bai, Long and Li, Wei and Guo, Jiafeng and Cheng, Xueqi},
-  journal={arXiv preprint arXiv:2203.07782},
-  year={2022}
+@inproceedings{li-etal-2022-complex,
+    title = "Complex Evolutional Pattern Learning for Temporal Knowledge Graph Reasoning",
+    author = "Li, Zixuan  and
+      Guan, Saiping  and
+      Jin, Xiaolong  and
+      Peng, Weihua  and
+      Lyu, Yajuan  and
+      Zhu, Yong  and
+      Bai, Long  and
+      Li, Wei  and
+      Guo, Jiafeng  and
+      Cheng, Xueqi",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-short.32",
+    doi = "10.18653/v1/2022.acl-short.32",
+    pages = "290--296"
 }
 ```
