@@ -128,7 +128,7 @@ def build_sub_graph(num_nodes, num_rels, triples, use_cuda, gpu):
     g.edata['type'] = torch.LongTensor(rel)
 
     if use_cuda:
-        g.to(gpu)
+        g = g.to(gpu)
     return g
 
 def get_total_rank(test_triples, score, all_ans, eval_bz, rel_predict=0):
